@@ -1,0 +1,13 @@
+{
+ "seed": 20260914,
+ "noise_items": 100,
+ "nocaveat_items": 90,
+ "parity_items": 90,
+ "note_dependent_items_excluded": 53,
+ "records": 850,
+ "records_by_study": {
+  "noise": 400,
+  "nocaveat": 180,
+  "parity": 270
+ }
+}

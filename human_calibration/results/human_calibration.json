@@ -1,0 +1,217 @@
+{
+ "n_rows": 120,
+ "graders": 2,
+ "phi": {
+  "human_A": {
+   "mean": 0.35,
+   "ci_lo": 0.15625,
+   "ci_hi": 0.5428571428571428,
+   "n": 120,
+   "by_condition": {
+    "closed_book": 0.0,
+    "offline_retrieval": 0.25,
+    "online_history": 0.45,
+    "gold_source": 0.45,
+    "gold_memory_state": 0.4,
+    "gold_evidence": 0.55
+   }
+  },
+  "human_B": {
+   "mean": 0.35,
+   "ci_lo": 0.18823529411764706,
+   "ci_hi": 0.4959349593495935,
+   "n": 120,
+   "by_condition": {
+    "closed_book": 0.0,
+    "offline_retrieval": 0.25,
+    "online_history": 0.3,
+    "gold_source": 0.55,
+    "gold_memory_state": 0.5,
+    "gold_evidence": 0.5
+   }
+  },
+  "judge": {
+   "mean": 0.06666666666666667,
+   "ci_lo": 0.0,
+   "ci_hi": 0.1357142857142857,
+   "n": 120,
+   "by_condition": {
+    "closed_book": 0.0,
+    "offline_retrieval": 0.0,
+    "online_history": 0.15,
+    "gold_source": 0.1,
+    "gold_memory_state": 0.0,
+    "gold_evidence": 0.15
+   }
+  },
+  "human_consensus": {
+   "mean": 0.275,
+   "ci_lo": 0.1134020618556701,
+   "ci_hi": 0.4357142857142857,
+   "n": 120,
+   "by_condition": {
+    "closed_book": 0.0,
+    "offline_retrieval": 0.2,
+    "online_history": 0.3,
+    "gold_source": 0.4,
+    "gold_memory_state": 0.3,
+    "gold_evidence": 0.45
+   }
+  }
+ },
+ "gap": {
+  "human_A": {
+   "base": 46,
+   "fail": 4,
+   "rate": 0.08695652173913043,
+   "ci_lo": 0.0,
+   "ci_hi": 0.3125,
+   "broken": {
+    "provenance": 4
+   }
+  },
+  "human_B": {
+   "base": 43,
+   "fail": 1,
+   "rate": 0.023255813953488372,
+   "ci_lo": 0.0,
+   "ci_hi": 0.06666666666666667,
+   "broken": {
+    "provenance": 1
+   }
+  },
+  "judge": {
+   "base": 10,
+   "fail": 3,
+   "rate": 0.3,
+   "ci_lo": 0.07692307692307693,
+   "ci_hi": 1.0,
+   "broken": {
+    "uncertainty": 1,
+    "revision": 2
+   }
+  },
+  "human_consensus": {
+   "base": 36,
+   "fail": 3,
+   "rate": 0.08333333333333333,
+   "ci_lo": 0.0,
+   "ci_hi": 0.23076923076923078,
+   "broken": {
+    "provenance": 3
+   }
+  }
+ },
+ "unsupported_fp": {
+  "clean_n": 37,
+  "judge_fired": 20,
+  "rate": 0.5405405405405406,
+  "ci_lo": 0.4090909090909091,
+  "ci_hi": 0.7307692307692307
+ },
+ "unsupported_fn": {
+  "judge_clean_n": 33,
+  "human_flagged": 3,
+  "rate": 0.09090909090909091
+ },
+ "kappa": {
+  "fidelity": {
+   "A_vs_judge": 0.534741352923171,
+   "B_vs_judge": 0.4521103896103896,
+   "A_vs_B": 0.6567069294342022,
+   "n": 120
+  },
+  "unsupported": {
+   "A_vs_judge": 0.17864476386036957,
+   "B_vs_judge": 0.20502092050209209,
+   "A_vs_B": 0.6837666900913563,
+   "n": 120
+  },
+  "contradiction": {
+   "A_vs_judge": 0.3364928909952609,
+   "B_vs_judge": 0.543788187372709,
+   "A_vs_B": 0.4408602150537635,
+   "n": 120
+  },
+  "revision": {
+   "A_vs_judge": 0.5518207282913165,
+   "B_vs_judge": 0.5109455053563112,
+   "A_vs_B": 0.9440298507462687,
+   "n": 120
+  },
+  "scope": {
+   "A_vs_judge": 0.6098680436029833,
+   "B_vs_judge": 0.6328169822145727,
+   "A_vs_B": 0.9374021909233176,
+   "n": 120
+  },
+  "uncertainty": {
+   "A_vs_judge": 0.7067806963958462,
+   "B_vs_judge": 0.7067806963958462,
+   "A_vs_B": 1.0,
+   "n": 120
+  },
+  "provenance": {
+   "A_vs_judge": 0.6333414813004153,
+   "B_vs_judge": 0.38695310453235526,
+   "A_vs_B": 0.5490026019080658,
+   "n": 120
+  }
+ },
+ "direction": {
+  "fidelity": {
+   "judge_harsher": 23,
+   "judge_more_lenient": 13
+  },
+  "unsupported": {
+   "judge_harsher": 50,
+   "judge_more_lenient": 3
+  },
+  "contradiction": {
+   "judge_harsher": 14,
+   "judge_more_lenient": 4
+  },
+  "revision": {
+   "judge_harsher": 18,
+   "judge_more_lenient": 2
+  },
+  "scope": {
+   "judge_harsher": 7,
+   "judge_more_lenient": 1
+  },
+  "uncertainty": {
+   "judge_harsher": 8,
+   "judge_more_lenient": 0
+  },
+  "provenance": {
+   "judge_harsher": 14,
+   "judge_more_lenient": 8
+  }
+ },
+ "branch_unpaired": {
+  "human_A": {
+   "d4": 0.45,
+   "n4": 20,
+   "d5": 0.4,
+   "n5": 20
+  },
+  "human_B": {
+   "d4": 0.55,
+   "n4": 20,
+   "d5": 0.5,
+   "n5": 20
+  },
+  "judge": {
+   "d4": 0.1,
+   "n4": 20,
+   "d5": 0.0,
+   "n5": 20
+  },
+  "human_consensus": {
+   "d4": 0.4,
+   "n4": 20,
+   "d5": 0.3,
+   "n5": 20
+  }
+ }
+}

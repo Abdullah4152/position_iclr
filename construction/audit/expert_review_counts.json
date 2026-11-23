@@ -1,0 +1,121 @@
+{
+  "rows": 300,
+  "domain_counts": {
+    "chemistry": 100,
+    "computational_biology": 100,
+    "materials_science": 100
+  },
+  "expert_item_decision": {
+    "accept": 122,
+    "revise": 173,
+    "reject": 5
+  },
+  "expert_gold_answer_correctness": {
+    "correct": 150,
+    "partially_correct": 144,
+    "incorrect": 6
+  },
+  "expert_evidence_support": {
+    "fully_supported": 139,
+    "partially_supported": 154,
+    "unsupported": 3,
+    "insufficient_evidence": 4
+  },
+  "expert_category_label": {
+    "temporal_claim_revision": 53,
+    "method_condition_constraints": 48,
+    "hypothesis_tracking": 13,
+    "contradiction_resolution": 51,
+    "cross_paper_synthesis": 54,
+    "uncertainty_abstention": 51,
+    "evidence_provenance": 24,
+    "entity_relation_recall_control": 6
+  },
+  "expert_answerability_label": {
+    "answerable": 279,
+    "ambiguous": 10,
+    "unanswerable": 11
+  },
+  "by_domain_item_decision": {
+    "chemistry": {
+      "accept": 35,
+      "revise": 63,
+      "reject": 2
+    },
+    "computational_biology": {
+      "accept": 41,
+      "revise": 56,
+      "reject": 3
+    },
+    "materials_science": {
+      "revise": 54,
+      "accept": 46
+    }
+  },
+  "by_category_item_decision": {
+    "contradiction_resolution": {
+      "accept": 27,
+      "revise": 24
+    },
+    "cross_paper_synthesis": {
+      "revise": 32,
+      "accept": 22
+    },
+    "entity_relation_recall_control": {
+      "revise": 6
+    },
+    "evidence_provenance": {
+      "revise": 21,
+      "reject": 3
+    },
+    "hypothesis_tracking": {
+      "revise": 13
+    },
+    "method_condition_constraints": {
+      "revise": 34,
+      "accept": 13,
+      "reject": 1
+    },
+    "temporal_claim_revision": {
+      "accept": 31,
+      "revise": 21,
+      "reject": 1
+    },
+    "uncertainty_abstention": {
+      "accept": 29,
+      "revise": 22
+    }
+  },
+  "rejects": [
+    {
+      "source_arc_id": "ch04",
+      "question_id": "scientific_memory_chemistry_0004_q02",
+      "category": "evidence_provenance",
+      "expert_rationale": "Cited evidence does not support the specific attribution claimed; the answer exceeds what the source actually says and should be rejected."
+    },
+    {
+      "source_arc_id": "ch04",
+      "question_id": "scientific_memory_chemistry_0004_q09",
+      "category": "evidence_provenance",
+      "expert_rationale": "Cited evidence does not support the specific attribution claimed; the answer exceeds what the source actually says and should be rejected."
+    },
+    {
+      "source_arc_id": "cb01",
+      "question_id": "scientific_memory_compbio_0001_q09",
+      "category": "evidence_provenance",
+      "expert_rationale": "Cited evidence does not support the specific attribution claimed; the answer exceeds what the source actually says and should be rejected."
+    },
+    {
+      "source_arc_id": "cb01",
+      "question_id": "scientific_memory_compbio_0001_q10",
+      "category": "method_condition_constraints",
+      "expert_rationale": "Cited evidence does not support the specific attribution claimed; the answer exceeds what the source actually says and should be rejected."
+    },
+    {
+      "source_arc_id": "cb02",
+      "question_id": "scientific_memory_compbio_0002_q03",
+      "category": "temporal_claim_revision",
+      "expert_rationale": "Cited evidence does not support the specific attribution claimed; the answer exceeds what the source actually says and should be rejected."
+    }
+  ]
+}

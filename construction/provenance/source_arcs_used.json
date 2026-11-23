@@ -1,0 +1,696 @@
+[
+ {
+  "source_arc_id": "cb01",
+  "arc_title": "CRISPR off-target prevalence is assay-dependent",
+  "arc_core_claim": "A guide RNA's off-target risk can be characterized by a single absolute genome-wide number",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0001_q03",
+   "scientific_memory_compbio_0001_q05",
+   "scientific_memory_compbio_0001_q06",
+   "scientific_memory_compbio_0001_q08",
+   "scientific_memory_compbio_0001_q11",
+   "scientific_memory_compbio_0001_q12"
+  ],
+  "source_paper_ids": [
+   "cb01_p1",
+   "cb01_p2"
+  ],
+  "source_titles": [
+   "cb01_p1: GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases; cb01_p2: CIRCLE-seq: a highly sensitive in vitro screen for genome-wide CRISPR-Cas9 nuclease off-targets; cb01_p3: Unbiased detection of CRISPR off-targets in vivo using DISCOVER-Seq; cb01_p4: CHANGE-seq reveals genetic and epigenetic effects on CRISPR-Cas9 genome-wide activity",
+   "cb01_p1: GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases; cb01_p2: CIRCLE-seq: a highly sensitive in vitro screen for genome-wide CRISPR-Cas9 nuclease off-targets; cb01_p3: Unbiased detection of CRISPR off-targets in vivo using DISCOVER-Seq; cb01_p4: CHANGE-seq reveals genetic and epigenetic effects on CRISPR-Cas9 genome-wide activity"
+  ],
+  "n_items": 6
+ },
+ {
+  "source_arc_id": "cb02",
+  "arc_title": "Pharmacogenomic reproducibility across cancer cell line panels",
+  "arc_core_claim": "Drug-response measurements in CCLE and GDSC should be highly correlated for the same drug-cell pairs",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0002_q06",
+   "scientific_memory_compbio_0002_q07",
+   "scientific_memory_compbio_0002_q09",
+   "scientific_memory_compbio_0002_q13",
+   "scientific_memory_compbio_0002_q14"
+  ],
+  "source_paper_ids": [
+   "cb02_p3",
+   "cb02_p1",
+   "cb02_p4"
+  ],
+  "source_titles": [
+   "cb02_p1: The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity; cb02_p2: Systematic identification of genomic markers of drug sensitivity in cancer cells; cb02_p3: Inconsistency in large pharmacogenomic studies; cb02_p4: Pharmacogenomic agreement between two cancer cell line data sets",
+   "cb02_p1: The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity; cb02_p2: Systematic identification of genomic markers of drug sensitivity in cancer cells; cb02_p3: Inconsistency in large pharmacogenomic studies; cb02_p4: Pharmacogenomic agreement between two cancer cell line data sets",
+   "cb02_p1: The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity; cb02_p2: Systematic identification of genomic markers of drug sensitivity in cancer cells; cb02_p3: Inconsistency in large pharmacogenomic studies; cb02_p4: Pharmacogenomic agreement between two cancer cell line data sets"
+  ],
+  "n_items": 5
+ },
+ {
+  "source_arc_id": "cb03",
+  "arc_title": "Gut microbiome composition and obesity (Firmicutes/Bacteroidetes ratio)",
+  "arc_core_claim": "An elevated Firmicutes:Bacteroidetes ratio is a reliable signature of obesity in humans",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0003_q03",
+   "scientific_memory_compbio_0003_q06",
+   "scientific_memory_compbio_0003_q10",
+   "scientific_memory_compbio_0003_q13",
+   "scientific_memory_compbio_0003_q15"
+  ],
+  "source_paper_ids": [
+   "cb03_p1",
+   "cb03_p3"
+  ],
+  "source_titles": [
+   "cb03_p1: Obesity alters gut microbial ecology; cb03_p2: An obesity-associated gut microbiome with increased capacity for energy harvest; cb03_p3: Metaanalyses of human gut microbes associated with obesity and IBD; cb03_p4: Looking for a Signal in the Noise: Revisiting Obesity and the Microbiome",
+   "cb03_p1: Obesity alters gut microbial ecology; cb03_p2: An obesity-associated gut microbiome with increased capacity for energy harvest; cb03_p3: Metaanalyses of human gut microbes associated with obesity and IBD; cb03_p4: Looking for a Signal in the Noise: Revisiting Obesity and the Microbiome"
+  ],
+  "n_items": 5
+ },
+ {
+  "source_arc_id": "cb04",
+  "arc_title": "AlphaFold2 accuracy on disordered regions and conformational ensembles",
+  "arc_core_claim": "AlphaFold2 produces accurate structures for any protein sequence",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0004_q01",
+   "scientific_memory_compbio_0004_q07",
+   "scientific_memory_compbio_0004_q13"
+  ],
+  "source_paper_ids": [
+   "cb04_p1",
+   "cb04_p2"
+  ],
+  "source_titles": [
+   "cb04_p1: Highly accurate protein structure prediction with AlphaFold; cb04_p2: A structural biology community assessment of AlphaFold2 applications; cb04_p3: AlphaFold and Implications for Intrinsically Disordered Proteins; cb04_p4: Impact of protein conformational diversity on AlphaFold predictions",
+   "cb04_p1: Highly accurate protein structure prediction with AlphaFold; cb04_p2: A structural biology community assessment of AlphaFold2 applications; cb04_p3: AlphaFold and Implications for Intrinsically Disordered Proteins; cb04_p4: Impact of protein conformational diversity on AlphaFold predictions"
+  ],
+  "n_items": 3
+ },
+ {
+  "source_arc_id": "cb05",
+  "arc_title": "PD-L1 IHC concordance across diagnostic assays in NSCLC",
+  "arc_core_claim": "PD-L1 expression measured by IHC is a robust predictor of immunotherapy response",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0005_q07",
+   "scientific_memory_compbio_0005_q08",
+   "scientific_memory_compbio_0005_q10",
+   "scientific_memory_compbio_0005_q11",
+   "scientific_memory_compbio_0005_q12",
+   "scientific_memory_compbio_0005_q14",
+   "scientific_memory_compbio_0005_q15"
+  ],
+  "source_paper_ids": [
+   "cb05_p1",
+   "cb05_p2"
+  ],
+  "source_titles": [
+   "cb05_p1: PD-L1 Immunohistochemistry Assays for Lung Cancer: Results from Phase 1 of the Blueprint PD-L1 IHC Assay Comparison Project; cb05_p2: PD-L1 Immunohistochemistry Comparability Study in Real-Life Clinical Samples: Results of Blueprint Phase 2 Project; cb05_p3: A Prospective, Multi-institutional, Pathologist-Based Assessment of 4 Immunohistochemistry Assays for PD-L1 Expression in Non-Small Cell Lung Cancer",
+   "cb05_p1: PD-L1 Immunohistochemistry Assays for Lung Cancer: Results from Phase 1 of the Blueprint PD-L1 IHC Assay Comparison Project; cb05_p2: PD-L1 Immunohistochemistry Comparability Study in Real-Life Clinical Samples: Results of Blueprint Phase 2 Project; cb05_p3: A Prospective, Multi-institutional, Pathologist-Based Assessment of 4 Immunohistochemistry Assays for PD-L1 Expression in Non-Small Cell Lung Cancer"
+  ],
+  "n_items": 7
+ },
+ {
+  "source_arc_id": "cb06",
+  "arc_title": "BRCA1 missense variants - saturation genome editing reclassification",
+  "arc_core_claim": "Most BRCA1 missense variants of uncertain significance (VUS) cannot be functionally classified at scale",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0006_q02",
+   "scientific_memory_compbio_0006_q09",
+   "scientific_memory_compbio_0006_q10",
+   "scientific_memory_compbio_0006_q12",
+   "scientific_memory_compbio_0006_q14",
+   "scientific_memory_compbio_0006_q15"
+  ],
+  "source_paper_ids": [
+   "cb06_p1",
+   "cb06_p3"
+  ],
+  "source_titles": [
+   "cb06_p1: Sequence variant classification and reporting: recommendations for improving the interpretation of cancer susceptibility genetic test results; cb06_p2: Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology; cb06_p3: Accurate classification of BRCA1 variants with saturation genome editing",
+   "cb06_p1: Sequence variant classification and reporting: recommendations for improving the interpretation of cancer susceptibility genetic test results; cb06_p2: Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology; cb06_p3: Accurate classification of BRCA1 variants with saturation genome editing"
+  ],
+  "n_items": 6
+ },
+ {
+  "source_arc_id": "cb07",
+  "arc_title": "Single-cell RNA-seq batch correction - no universal best method",
+  "arc_core_claim": "A single batch-correction algorithm is appropriate for all scRNA-seq integration tasks",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0007_q03",
+   "scientific_memory_compbio_0007_q04",
+   "scientific_memory_compbio_0007_q09",
+   "scientific_memory_compbio_0007_q10",
+   "scientific_memory_compbio_0007_q12",
+   "scientific_memory_compbio_0007_q13",
+   "scientific_memory_compbio_0007_q14"
+  ],
+  "source_paper_ids": [
+   "cb07_p3",
+   "cb07_p1",
+   "cb07_p2",
+   "cb07_p4"
+  ],
+  "source_titles": [
+   "cb07_p1: Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors; cb07_p2: Comprehensive Integration of Single-Cell Data; cb07_p3: A benchmark of batch-effect correction methods for single-cell RNA sequencing data; cb07_p4: Benchmarking atlas-level data integration in single-cell genomics",
+   "cb07_p1: Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors; cb07_p2: Comprehensive Integration of Single-Cell Data; cb07_p3: A benchmark of batch-effect correction methods for single-cell RNA sequencing data; cb07_p4: Benchmarking atlas-level data integration in single-cell genomics",
+   "cb07_p1: Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors; cb07_p2: Comprehensive Integration of Single-Cell Data; cb07_p3: A benchmark of batch-effect correction methods for single-cell RNA sequencing data; cb07_p4: Benchmarking atlas-level data integration in single-cell genomics",
+   "cb07_p1: Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors; cb07_p2: Comprehensive Integration of Single-Cell Data; cb07_p3: A benchmark of batch-effect correction methods for single-cell RNA sequencing data; cb07_p4: Benchmarking atlas-level data integration in single-cell genomics"
+  ],
+  "n_items": 7
+ },
+ {
+  "source_arc_id": "cb08",
+  "arc_title": "EZH2 / PRC2 - context-dependent oncogene vs tumor suppressor",
+  "arc_core_claim": "EZH2 acts as an oncogene through PRC2-mediated H3K27 trimethylation",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0008_q03",
+   "scientific_memory_compbio_0008_q06",
+   "scientific_memory_compbio_0008_q07",
+   "scientific_memory_compbio_0008_q09",
+   "scientific_memory_compbio_0008_q10",
+   "scientific_memory_compbio_0008_q11"
+  ],
+  "source_paper_ids": [
+   "cb08_p3",
+   "cb08_p1",
+   "cb08_p2"
+  ],
+  "source_titles": [
+   "cb08_p1: The polycomb group protein EZH2 is involved in progression of prostate cancer; cb08_p2: Somatic mutations altering EZH2 (Tyr641) in follicular and diffuse large B-cell lymphomas of germinal-center origin; cb08_p3: Inactivating mutations of the histone methyltransferase gene EZH2 in myeloid disorders; cb08_p4: EZH2 Is Required for Germinal Center Formation and Somatic EZH2 Mutations Promote Lymphoid Transformation",
+   "cb08_p1: The polycomb group protein EZH2 is involved in progression of prostate cancer; cb08_p2: Somatic mutations altering EZH2 (Tyr641) in follicular and diffuse large B-cell lymphomas of germinal-center origin; cb08_p3: Inactivating mutations of the histone methyltransferase gene EZH2 in myeloid disorders; cb08_p4: EZH2 Is Required for Germinal Center Formation and Somatic EZH2 Mutations Promote Lymphoid Transformation",
+   "cb08_p1: The polycomb group protein EZH2 is involved in progression of prostate cancer; cb08_p2: Somatic mutations altering EZH2 (Tyr641) in follicular and diffuse large B-cell lymphomas of germinal-center origin; cb08_p3: Inactivating mutations of the histone methyltransferase gene EZH2 in myeloid disorders; cb08_p4: EZH2 Is Required for Germinal Center Formation and Somatic EZH2 Mutations Promote Lymphoid Transformation"
+  ],
+  "n_items": 6
+ },
+ {
+  "source_arc_id": "cb09",
+  "arc_title": "Cellular senescence markers - no single specific marker",
+  "arc_core_claim": "p16INK4a expression alone reliably identifies senescent cells in tissue",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0009_q04",
+   "scientific_memory_compbio_0009_q05",
+   "scientific_memory_compbio_0009_q15"
+  ],
+  "source_paper_ids": [
+   "cb09_p1",
+   "cb09_p3"
+  ],
+  "source_titles": [
+   "cb09_p1: Forging a signature of in vivo senescence; cb09_p2: Unmasking Transcriptional Heterogeneity in Senescent Cells; cb09_p3: Cellular Senescence: Defining a Path Forward",
+   "cb09_p1: Forging a signature of in vivo senescence; cb09_p2: Unmasking Transcriptional Heterogeneity in Senescent Cells; cb09_p3: Cellular Senescence: Defining a Path Forward"
+  ],
+  "n_items": 3
+ },
+ {
+  "source_arc_id": "cb10",
+  "arc_title": "Triple-negative breast cancer - molecular subtype heterogeneity",
+  "arc_core_claim": "TNBC (ER-/PR-/HER2-) is a single therapeutic category",
+  "domain": "computational_biology",
+  "items": [
+   "scientific_memory_compbio_0010_q04",
+   "scientific_memory_compbio_0010_q05",
+   "scientific_memory_compbio_0010_q09"
+  ],
+  "source_paper_ids": [
+   "cb10_p3",
+   "cb10_p1"
+  ],
+  "source_titles": [
+   "cb10_p1: Identification of human triple-negative breast cancer subtypes and preclinical models for selection of targeted therapies; cb10_p2: Comprehensive Genomic Analysis Identifies Novel Subtypes and Targets of Triple-Negative Breast Cancer; cb10_p3: Refinement of Triple-Negative Breast Cancer Molecular Subtypes: Implications for Neoadjuvant Chemotherapy Selection",
+   "cb10_p1: Identification of human triple-negative breast cancer subtypes and preclinical models for selection of targeted therapies; cb10_p2: Comprehensive Genomic Analysis Identifies Novel Subtypes and Targets of Triple-Negative Breast Cancer; cb10_p3: Refinement of Triple-Negative Breast Cancer Molecular Subtypes: Implications for Neoadjuvant Chemotherapy Selection"
+  ],
+  "n_items": 3
+ },
+ {
+  "source_arc_id": "ch01",
+  "arc_title": "Cu electrode CO2 reduction - product distribution depends on facet/potential/electrolyte",
+  "arc_core_claim": "Copper produces a fixed product distribution (e.g. methane, ethylene) under CO2 reduction",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0001_q03",
+   "scientific_memory_chemistry_0001_q11",
+   "scientific_memory_chemistry_0001_q13"
+  ],
+  "source_paper_ids": [
+   "ch01_p2",
+   "ch01_p1"
+  ],
+  "source_titles": [
+   "ch01_p1: Electrocatalytic process of CO selectivity in electrochemical reduction of CO2 at metal electrodes in aqueous media; ch01_p2: Electrochemical reduction of carbon dioxide at various series of copper single crystal electrodes; ch01_p3: New insights into the electrochemical reduction of carbon dioxide on metallic copper surfaces; ch01_p4: Highly selective plasma-activated copper catalysts for carbon dioxide reduction to ethylene",
+   "ch01_p1: Electrocatalytic process of CO selectivity in electrochemical reduction of CO2 at metal electrodes in aqueous media; ch01_p2: Electrochemical reduction of carbon dioxide at various series of copper single crystal electrodes; ch01_p3: New insights into the electrochemical reduction of carbon dioxide on metallic copper surfaces; ch01_p4: Highly selective plasma-activated copper catalysts for carbon dioxide reduction to ethylene"
+  ],
+  "n_items": 3
+ },
+ {
+  "source_arc_id": "ch02",
+  "arc_title": "Soai asymmetric autocatalysis - mechanism still debated",
+  "arc_core_claim": "The Soai reaction unambiguously demonstrates a deterministic enantioselective autocatalytic mechanism",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0002_q10",
+   "scientific_memory_chemistry_0002_q11",
+   "scientific_memory_chemistry_0002_q13",
+   "scientific_memory_chemistry_0002_q14",
+   "scientific_memory_chemistry_0002_q15"
+  ],
+  "source_paper_ids": [
+   "ch02_p2",
+   "ch02_p1",
+   "ch02_p3"
+  ],
+  "source_titles": [
+   "ch02_p1: Asymmetric autocatalysis and amplification of enantiomeric excess of a chiral molecule; ch02_p2: Enantioselective Synthesis without Discrete Optically Active Additives; ch02_p3: Asymmetric autocatalysis and its implications for the origin of homochirality",
+   "ch02_p1: Asymmetric autocatalysis and amplification of enantiomeric excess of a chiral molecule; ch02_p2: Enantioselective Synthesis without Discrete Optically Active Additives; ch02_p3: Asymmetric autocatalysis and its implications for the origin of homochirality",
+   "ch02_p1: Asymmetric autocatalysis and amplification of enantiomeric excess of a chiral molecule; ch02_p2: Enantioselective Synthesis without Discrete Optically Active Additives; ch02_p3: Asymmetric autocatalysis and its implications for the origin of homochirality"
+  ],
+  "n_items": 5
+ },
+ {
+  "source_arc_id": "ch03",
+  "arc_title": "Cu-zeolite methane-to-methanol active site identity",
+  "arc_core_claim": "A defined dicopper [Cu2O]2+ core in Cu-ZSM-5 is the universal active site for selective CH4 -> MeOH",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0003_q06",
+   "scientific_memory_chemistry_0003_q08",
+   "scientific_memory_chemistry_0003_q09",
+   "scientific_memory_chemistry_0003_q13"
+  ],
+  "source_paper_ids": [
+   "ch03_p1",
+   "ch03_p2",
+   "ch03_p3"
+  ],
+  "source_titles": [
+   "ch03_p1: Selective Oxidation of Methane by the Bis(mu-oxo)dicopper Core Stabilized on ZSM-5 and Mordenite Zeolites; ch03_p2: A [Cu 2 O] 2+ core in Cu-ZSM-5, the active site in the oxidation of methane to methanol; ch03_p3: Single-site trinuclear copper oxygen clusters in mordenite for selective conversion of methane to methanol",
+   "ch03_p1: Selective Oxidation of Methane by the Bis(mu-oxo)dicopper Core Stabilized on ZSM-5 and Mordenite Zeolites; ch03_p2: A [Cu 2 O] 2+ core in Cu-ZSM-5, the active site in the oxidation of methane to methanol; ch03_p3: Single-site trinuclear copper oxygen clusters in mordenite for selective conversion of methane to methanol",
+   "ch03_p1: Selective Oxidation of Methane by the Bis(mu-oxo)dicopper Core Stabilized on ZSM-5 and Mordenite Zeolites; ch03_p2: A [Cu 2 O] 2+ core in Cu-ZSM-5, the active site in the oxidation of methane to methanol; ch03_p3: Single-site trinuclear copper oxygen clusters in mordenite for selective conversion of methane to methanol"
+  ],
+  "n_items": 4
+ },
+ {
+  "source_arc_id": "ch04",
+  "arc_title": "Pd cross-coupling - homogeneous molecular Pd vs heterogeneous nanoparticle active species",
+  "arc_core_claim": "Pd nanoparticle catalysts in Suzuki/Heck couplings catalyze on the nanoparticle surface",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0004_q03",
+   "scientific_memory_chemistry_0004_q08",
+   "scientific_memory_chemistry_0004_q12",
+   "scientific_memory_chemistry_0004_q14",
+   "scientific_memory_chemistry_0004_q15"
+  ],
+  "source_paper_ids": [
+   "ch04_p1"
+  ],
+  "source_titles": [
+   "ch04_p1: Ligand-free Heck reactions using low Pd-loading; ch04_p2: A unifying mechanism for all high-temperature Heck reactions. The role of palladium colloids and anionic species; ch04_p3: On the Nature of the Active Species in Palladium Catalyzed Mizoroki-Heck and Suzuki-Miyaura Couplings - Homogeneous or Heterogeneous Catalysis, A Critical Review"
+  ],
+  "n_items": 5
+ },
+ {
+  "source_arc_id": "ch05",
+  "arc_title": "Proline-catalyzed asymmetric aldol - Houk-List mechanism vs alternatives",
+  "arc_core_claim": "Proline catalyzes asymmetric aldol exclusively via a Houk-List enamine transition state",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0005_q03",
+   "scientific_memory_chemistry_0005_q05",
+   "scientific_memory_chemistry_0005_q07",
+   "scientific_memory_chemistry_0005_q09",
+   "scientific_memory_chemistry_0005_q11",
+   "scientific_memory_chemistry_0005_q12",
+   "scientific_memory_chemistry_0005_q13"
+  ],
+  "source_paper_ids": [
+   "ch05_p4",
+   "ch05_p1",
+   "ch05_p2"
+  ],
+  "source_titles": [
+   "ch05_p1: Proline-Catalyzed Direct Asymmetric Aldol Reactions; ch05_p2: Transition States of Amine-Catalyzed Aldol Reactions Involving Enamine Intermediates: Theoretical Studies of Mechanism, Reactivity, and Stereoselectivity; ch05_p3: Quantum Mechanical Predictions of the Stereoselectivities of Proline-Catalyzed Asymmetric Intermolecular Aldol Reactions; ch05_p4: The Elusive Enamine Intermediate in ProlineCatalyzed Aldol Reactions: NMR Detection, Formation Pathway, and Stabilization Trends",
+   "ch05_p1: Proline-Catalyzed Direct Asymmetric Aldol Reactions; ch05_p2: Transition States of Amine-Catalyzed Aldol Reactions Involving Enamine Intermediates: Theoretical Studies of Mechanism, Reactivity, and Stereoselectivity; ch05_p3: Quantum Mechanical Predictions of the Stereoselectivities of Proline-Catalyzed Asymmetric Intermolecular Aldol Reactions; ch05_p4: The Elusive Enamine Intermediate in ProlineCatalyzed Aldol Reactions: NMR Detection, Formation Pathway, and Stabilization Trends",
+   "ch05_p1: Proline-Catalyzed Direct Asymmetric Aldol Reactions; ch05_p2: Transition States of Amine-Catalyzed Aldol Reactions Involving Enamine Intermediates: Theoretical Studies of Mechanism, Reactivity, and Stereoselectivity; ch05_p3: Quantum Mechanical Predictions of the Stereoselectivities of Proline-Catalyzed Asymmetric Intermolecular Aldol Reactions; ch05_p4: The Elusive Enamine Intermediate in ProlineCatalyzed Aldol Reactions: NMR Detection, Formation Pathway, and Stabilization Trends"
+  ],
+  "n_items": 7
+ },
+ {
+  "source_arc_id": "ch06",
+  "arc_title": "Photocatalytic water splitting - quantum efficiency reporting standards",
+  "arc_core_claim": "Reported apparent quantum yields (AQY) for photocatalytic water splitting are directly comparable across publications",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0006_q03",
+   "scientific_memory_chemistry_0006_q04",
+   "scientific_memory_chemistry_0006_q06",
+   "scientific_memory_chemistry_0006_q08",
+   "scientific_memory_chemistry_0006_q11",
+   "scientific_memory_chemistry_0006_q12",
+   "scientific_memory_chemistry_0006_q14"
+  ],
+  "source_paper_ids": [
+   "ch06_p3",
+   "ch06_p2",
+   "ch06_p1"
+  ],
+  "source_titles": [
+   "ch06_p1: Electrochemical Photolysis of Water at a Semiconductor Electrode; ch06_p2: Photocatalyst releasing hydrogen from water; ch06_p3: Semiconductor-based Photocatalytic Hydrogen Generation; ch06_p4: Insights on Measuring and Reporting Heterogeneous Photocatalysis: Efficiency Definitions and Setup Examples",
+   "ch06_p1: Electrochemical Photolysis of Water at a Semiconductor Electrode; ch06_p2: Photocatalyst releasing hydrogen from water; ch06_p3: Semiconductor-based Photocatalytic Hydrogen Generation; ch06_p4: Insights on Measuring and Reporting Heterogeneous Photocatalysis: Efficiency Definitions and Setup Examples",
+   "ch06_p1: Electrochemical Photolysis of Water at a Semiconductor Electrode; ch06_p2: Photocatalyst releasing hydrogen from water; ch06_p3: Semiconductor-based Photocatalytic Hydrogen Generation; ch06_p4: Insights on Measuring and Reporting Heterogeneous Photocatalysis: Efficiency Definitions and Setup Examples"
+  ],
+  "n_items": 7
+ },
+ {
+  "source_arc_id": "ch07",
+  "arc_title": "Fenton chemistry - hydroxyl radical vs ferryl active oxidant",
+  "arc_core_claim": "Fenton's reagent (Fe2+/H2O2) generates hydroxyl radicals (HO-) as the sole active oxidant",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0007_q02",
+   "scientific_memory_chemistry_0007_q04",
+   "scientific_memory_chemistry_0007_q07",
+   "scientific_memory_chemistry_0007_q08",
+   "scientific_memory_chemistry_0007_q10"
+  ],
+  "source_paper_ids": [
+   "ch07_p2",
+   "ch07_p1",
+   "ch07_p3"
+  ],
+  "source_titles": [
+   "ch07_p1: Fenton's reagent revisited; ch07_p2: Aqueous FeIVO: Spectroscopic Identification and OxoGroup Exchange; ch07_p3: pH-induced mechanistic changeover from hydroxyl radicals to iron(iv) in the Fenton reaction",
+   "ch07_p1: Fenton's reagent revisited; ch07_p2: Aqueous FeIVO: Spectroscopic Identification and OxoGroup Exchange; ch07_p3: pH-induced mechanistic changeover from hydroxyl radicals to iron(iv) in the Fenton reaction",
+   "ch07_p1: Fenton's reagent revisited; ch07_p2: Aqueous FeIVO: Spectroscopic Identification and OxoGroup Exchange; ch07_p3: pH-induced mechanistic changeover from hydroxyl radicals to iron(iv) in the Fenton reaction"
+  ],
+  "n_items": 5
+ },
+ {
+  "source_arc_id": "ch08",
+  "arc_title": "Pd-catalyzed C-H activation - directing-group dependency on selectivity",
+  "arc_core_claim": "Pd-catalyzed C-H functionalization requires a chelating directing group for site selectivity",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0008_q04",
+   "scientific_memory_chemistry_0008_q05",
+   "scientific_memory_chemistry_0008_q06",
+   "scientific_memory_chemistry_0008_q07",
+   "scientific_memory_chemistry_0008_q12",
+   "scientific_memory_chemistry_0008_q13",
+   "scientific_memory_chemistry_0008_q14",
+   "scientific_memory_chemistry_0008_q15"
+  ],
+  "source_paper_ids": [
+   "ch08_p2",
+   "ch08_p1",
+   "ch08_p3"
+  ],
+  "source_titles": [
+   "ch08_p1: Palladium- and Copper-Catalyzed Arylation of Carbon-Hydrogen Bonds; ch08_p2: Weak Coordination as a Powerful Means for Developing Broadly Useful C-H Functionalization Reactions; ch08_p3: Activation of remote meta-C-H bonds assisted by an end-on template",
+   "ch08_p1: Palladium- and Copper-Catalyzed Arylation of Carbon-Hydrogen Bonds; ch08_p2: Weak Coordination as a Powerful Means for Developing Broadly Useful C-H Functionalization Reactions; ch08_p3: Activation of remote meta-C-H bonds assisted by an end-on template",
+   "ch08_p1: Palladium- and Copper-Catalyzed Arylation of Carbon-Hydrogen Bonds; ch08_p2: Weak Coordination as a Powerful Means for Developing Broadly Useful C-H Functionalization Reactions; ch08_p3: Activation of remote meta-C-H bonds assisted by an end-on template"
+  ],
+  "n_items": 8
+ },
+ {
+  "source_arc_id": "ch09",
+  "arc_title": "CuAAC click chemistry - dinuclear Cu mechanism and SPAAC alternative",
+  "arc_core_claim": "Cu(I)-catalyzed azide-alkyne cycloaddition proceeds via a mononuclear Cu-acetylide intermediate",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0009_q02",
+   "scientific_memory_chemistry_0009_q04",
+   "scientific_memory_chemistry_0009_q10",
+   "scientific_memory_chemistry_0009_q14",
+   "scientific_memory_chemistry_0009_q15"
+  ],
+  "source_paper_ids": [
+   "ch09_p3",
+   "ch09_p1"
+  ],
+  "source_titles": [
+   "ch09_p1: A Stepwise Huisgen Cycloaddition Process: Copper(I)-Catalyzed Regioselective Ligation of Azides and Terminal Alkynes; ch09_p2: Peptidotriazoles on Solid Phase: [1,2,3]-Triazoles by Regiospecific Copper(I)-Catalyzed 1,3-Dipolar Cycloadditions of Terminal Alkynes to Azides; ch09_p3: Direct Evidence of a Dinuclear Copper Intermediate in Cu(I)-Catalyzed Azide-Alkyne Cycloadditions; ch09_p4: A Strain-Promoted [3 + 2] Azide-Alkyne Cycloaddition for Covalent Modification of Biomolecules in Living Systems",
+   "ch09_p1: A Stepwise Huisgen Cycloaddition Process: Copper(I)-Catalyzed Regioselective Ligation of Azides and Terminal Alkynes; ch09_p2: Peptidotriazoles on Solid Phase: [1,2,3]-Triazoles by Regiospecific Copper(I)-Catalyzed 1,3-Dipolar Cycloadditions of Terminal Alkynes to Azides; ch09_p3: Direct Evidence of a Dinuclear Copper Intermediate in Cu(I)-Catalyzed Azide-Alkyne Cycloadditions; ch09_p4: A Strain-Promoted [3 + 2] Azide-Alkyne Cycloaddition for Covalent Modification of Biomolecules in Living Systems"
+  ],
+  "n_items": 5
+ },
+ {
+  "source_arc_id": "ch10",
+  "arc_title": "Frustrated Lewis pairs - metal-free H2 activation scope and reversibility",
+  "arc_core_claim": "Frustrated Lewis pairs (FLPs) heterolytically cleave H2 reversibly, providing a general metal-free hydrogenation platform",
+  "domain": "chemistry",
+  "items": [
+   "scientific_memory_chemistry_0010_q02",
+   "scientific_memory_chemistry_0010_q09",
+   "scientific_memory_chemistry_0010_q10",
+   "scientific_memory_chemistry_0010_q12",
+   "scientific_memory_chemistry_0010_q14"
+  ],
+  "source_paper_ids": [
+   "ch10_p1",
+   "ch10_p2",
+   "ch10_p3"
+  ],
+  "source_titles": [
+   "ch10_p1: Reversible, Metal-Free Hydrogen Activation; ch10_p2: MetalFree Catalytic Hydrogenation of Enamines, Imines, and Conjugated Phosphinoalkenylboranes; ch10_p3: Frustrated Lewis Pairs: Metalfree Hydrogen Activation and More",
+   "ch10_p1: Reversible, Metal-Free Hydrogen Activation; ch10_p2: MetalFree Catalytic Hydrogenation of Enamines, Imines, and Conjugated Phosphinoalkenylboranes; ch10_p3: Frustrated Lewis Pairs: Metalfree Hydrogen Activation and More",
+   "ch10_p1: Reversible, Metal-Free Hydrogen Activation; ch10_p2: MetalFree Catalytic Hydrogenation of Enamines, Imines, and Conjugated Phosphinoalkenylboranes; ch10_p3: Frustrated Lewis Pairs: Metalfree Hydrogen Activation and More"
+  ],
+  "n_items": 5
+ },
+ {
+  "source_arc_id": "ms01",
+  "arc_title": "Hybrid halide perovskite PV - efficiency depends on composition and processing",
+  "arc_core_claim": "MAPbI3 perovskites achieve high single-junction PCE in a composition-independent way",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0001_q03",
+   "scientific_memory_materials_0001_q04",
+   "scientific_memory_materials_0001_q06",
+   "scientific_memory_materials_0001_q07",
+   "scientific_memory_materials_0001_q11",
+   "scientific_memory_materials_0001_q13",
+   "scientific_memory_materials_0001_q15"
+  ],
+  "source_paper_ids": [
+   "ms01_p1",
+   "ms01_p2",
+   "ms01_p3"
+  ],
+  "source_titles": [
+   "ms01_p1: Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells; ms01_p2: Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites; ms01_p3: Cesium-containing triple cation perovskite solar cells: improved stability, reproducibility and high efficiency; ms01_p4: Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells",
+   "ms01_p1: Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells; ms01_p2: Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites; ms01_p3: Cesium-containing triple cation perovskite solar cells: improved stability, reproducibility and high efficiency; ms01_p4: Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells",
+   "ms01_p1: Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells; ms01_p2: Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites; ms01_p3: Cesium-containing triple cation perovskite solar cells: improved stability, reproducibility and high efficiency; ms01_p4: Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells"
+  ],
+  "n_items": 7
+ },
+ {
+  "source_arc_id": "ms02",
+  "arc_title": "Magic-angle twisted bilayer graphene - superconductivity reproducibility",
+  "arc_core_claim": "Twisted bilayer graphene at the magic angle (~1.1) reliably hosts unconventional superconductivity",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0002_q04",
+   "scientific_memory_materials_0002_q09",
+   "scientific_memory_materials_0002_q12",
+   "scientific_memory_materials_0002_q14"
+  ],
+  "source_paper_ids": [
+   "ms02_p3",
+   "ms02_p4"
+  ],
+  "source_titles": [
+   "ms02_p1: Unconventional superconductivity in magic-angle graphene superlattices; ms02_p2: Correlated insulator behaviour at half-filling in magic-angle graphene superlattices; ms02_p3: Superconductors, orbital magnets and correlated states in magic-angle bilayer graphene; ms02_p4: Tuning superconductivity in twisted bilayer graphene",
+   "ms02_p1: Unconventional superconductivity in magic-angle graphene superlattices; ms02_p2: Correlated insulator behaviour at half-filling in magic-angle graphene superlattices; ms02_p3: Superconductors, orbital magnets and correlated states in magic-angle bilayer graphene; ms02_p4: Tuning superconductivity in twisted bilayer graphene"
+  ],
+  "n_items": 4
+ },
+ {
+  "source_arc_id": "ms03",
+  "arc_title": "MoS2 monolayer FET intrinsic mobility - substrate dielectric vs intrinsic",
+  "arc_core_claim": "Single-layer MoS2 transistors have an intrinsic carrier mobility ~200 cm2/Vs",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0003_q15"
+  ],
+  "source_paper_ids": [
+   "ms03_p1"
+  ],
+  "source_titles": [
+   "ms03_p1: Single-layer MoS2 transistors; ms03_p2: Measurement of mobility in dual-gated MoS2 transistors; ms03_p3: Reply to 'Measurement of mobility in dual-gated MoS2 transistors'; ms03_p4: Towards intrinsic charge transport in monolayer molybdenum disulfide by defect and interface engineering"
+  ],
+  "n_items": 1
+ },
+ {
+  "source_arc_id": "ms04",
+  "arc_title": "Garnet LLZO solid electrolyte - cubic phase stabilization requires aliovalent doping",
+  "arc_core_claim": "Pure Li7La3Zr2O12 has high room-temperature lithium-ion conductivity in its cubic phase",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0004_q06",
+   "scientific_memory_materials_0004_q08",
+   "scientific_memory_materials_0004_q10",
+   "scientific_memory_materials_0004_q12",
+   "scientific_memory_materials_0004_q13",
+   "scientific_memory_materials_0004_q14",
+   "scientific_memory_materials_0004_q15"
+  ],
+  "source_paper_ids": [
+   "ms04_p1",
+   "ms04_p3",
+   "ms04_p2"
+  ],
+  "source_titles": [
+   "ms04_p1: Fast Lithium Ion Conduction in GarnetType Li7La3Zr2O12; ms04_p2: Synthesis and structure analysis of tetragonal Li7La3Zr2O12 with the garnet-related type structure; ms04_p3: Crystal Chemistry and Stability of Li7La3Zr2O12 Garnet: A Fast Lithium-Ion Conductor; ms04_p4: Structure and dynamics of the fast lithium ion conductor Li7La3Zr2O12",
+   "ms04_p1: Fast Lithium Ion Conduction in GarnetType Li7La3Zr2O12; ms04_p2: Synthesis and structure analysis of tetragonal Li7La3Zr2O12 with the garnet-related type structure; ms04_p3: Crystal Chemistry and Stability of Li7La3Zr2O12 Garnet: A Fast Lithium-Ion Conductor; ms04_p4: Structure and dynamics of the fast lithium ion conductor Li7La3Zr2O12",
+   "ms04_p1: Fast Lithium Ion Conduction in GarnetType Li7La3Zr2O12; ms04_p2: Synthesis and structure analysis of tetragonal Li7La3Zr2O12 with the garnet-related type structure; ms04_p3: Crystal Chemistry and Stability of Li7La3Zr2O12 Garnet: A Fast Lithium-Ion Conductor; ms04_p4: Structure and dynamics of the fast lithium ion conductor Li7La3Zr2O12"
+  ],
+  "n_items": 7
+ },
+ {
+  "source_arc_id": "ms05",
+  "arc_title": "High-entropy alloys - single-phase formation rules and mechanical properties",
+  "arc_core_claim": "All equiatomic multi-principal-element alloys form single-phase solid solutions due to configurational entropy",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0005_q08",
+   "scientific_memory_materials_0005_q09",
+   "scientific_memory_materials_0005_q13",
+   "scientific_memory_materials_0005_q14"
+  ],
+  "source_paper_ids": [
+   "ms05_p1",
+   "ms05_p3"
+  ],
+  "source_titles": [
+   "ms05_p1: Nanostructured HighEntropy Alloys with Multiple Principal Elements: Novel Alloy Design Concepts and Outcomes; ms05_p2: Microstructural development in equiatomic multicomponent alloys; ms05_p3: The influences of temperature and microstructure on the tensile properties of a CoCrFeMnNi high-entropy alloy; ms05_p4: A fracture-resistant high-entropy alloy for cryogenic applications",
+   "ms05_p1: Nanostructured HighEntropy Alloys with Multiple Principal Elements: Novel Alloy Design Concepts and Outcomes; ms05_p2: Microstructural development in equiatomic multicomponent alloys; ms05_p3: The influences of temperature and microstructure on the tensile properties of a CoCrFeMnNi high-entropy alloy; ms05_p4: A fracture-resistant high-entropy alloy for cryogenic applications"
+  ],
+  "n_items": 4
+ },
+ {
+  "source_arc_id": "ms06",
+  "arc_title": "Bi2Se3 topological insulator - surface vs bulk transport",
+  "arc_core_claim": "Bi2Se3 transport at low temperature is dominated by topologically protected surface states",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0006_q03",
+   "scientific_memory_materials_0006_q07",
+   "scientific_memory_materials_0006_q08",
+   "scientific_memory_materials_0006_q10",
+   "scientific_memory_materials_0006_q11",
+   "scientific_memory_materials_0006_q12",
+   "scientific_memory_materials_0006_q13",
+   "scientific_memory_materials_0006_q14"
+  ],
+  "source_paper_ids": [
+   "ms06_p1",
+   "ms06_p4"
+  ],
+  "source_titles": [
+   "ms06_p1: Topological insulators in Bi2Se3, Bi2Te3 and Sb2Te3 with a single Dirac cone on the surface; ms06_p2: Observation of a large-gap topological-insulator class with a single Dirac cone on the surface; ms06_p3: A tunable topological insulator in the spin helical Dirac transport regime; ms06_p4: Two-dimensional surface state in the quantum limit of a topological insulator",
+   "ms06_p1: Topological insulators in Bi2Se3, Bi2Te3 and Sb2Te3 with a single Dirac cone on the surface; ms06_p2: Observation of a large-gap topological-insulator class with a single Dirac cone on the surface; ms06_p3: A tunable topological insulator in the spin helical Dirac transport regime; ms06_p4: Two-dimensional surface state in the quantum limit of a topological insulator"
+  ],
+  "n_items": 8
+ },
+ {
+  "source_arc_id": "ms07",
+  "arc_title": "MOF surface area depends critically on activation protocol",
+  "arc_core_claim": "Reported BET surface areas of MOFs (e.g. HKUST-1, MOF-5) are intrinsic material properties",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0007_q02",
+   "scientific_memory_materials_0007_q04",
+   "scientific_memory_materials_0007_q08",
+   "scientific_memory_materials_0007_q10",
+   "scientific_memory_materials_0007_q11",
+   "scientific_memory_materials_0007_q12",
+   "scientific_memory_materials_0007_q14"
+  ],
+  "source_paper_ids": [
+   "ms07_p2",
+   "ms07_p3",
+   "ms07_p1"
+  ],
+  "source_titles": [
+   "ms07_p1: A Chemically Functionalizable Nanoporous Material [Cu 3 (TMA) 2 (H 2 O) 3 ] n; ms07_p2: Applicability of the BET Method for Determining Surface Areas of Microporous Metal-Organic Frameworks; ms07_p3: Supercritical Processing as a Route to High Internal Surface Areas and Permanent Microporosity in Metal-Organic Framework Materials; ms07_p4: Metal-Organic Framework Materials with Ultrahigh Surface Areas: Is the Sky the Limit?",
+   "ms07_p1: A Chemically Functionalizable Nanoporous Material [Cu 3 (TMA) 2 (H 2 O) 3 ] n; ms07_p2: Applicability of the BET Method for Determining Surface Areas of Microporous Metal-Organic Frameworks; ms07_p3: Supercritical Processing as a Route to High Internal Surface Areas and Permanent Microporosity in Metal-Organic Framework Materials; ms07_p4: Metal-Organic Framework Materials with Ultrahigh Surface Areas: Is the Sky the Limit?",
+   "ms07_p1: A Chemically Functionalizable Nanoporous Material [Cu 3 (TMA) 2 (H 2 O) 3 ] n; ms07_p2: Applicability of the BET Method for Determining Surface Areas of Microporous Metal-Organic Frameworks; ms07_p3: Supercritical Processing as a Route to High Internal Surface Areas and Permanent Microporosity in Metal-Organic Framework Materials; ms07_p4: Metal-Organic Framework Materials with Ultrahigh Surface Areas: Is the Sky the Limit?"
+  ],
+  "n_items": 7
+ },
+ {
+  "source_arc_id": "ms08",
+  "arc_title": "Graphene CVD on Cu - single-crystal growth depends on Cu surface chemistry",
+  "arc_core_claim": "Graphene grown by CVD on commercial Cu foil is uniformly polycrystalline at the grain scale",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0008_q06",
+   "scientific_memory_materials_0008_q08",
+   "scientific_memory_materials_0008_q11",
+   "scientific_memory_materials_0008_q12",
+   "scientific_memory_materials_0008_q14"
+  ],
+  "source_paper_ids": [
+   "ms08_p1",
+   "ms08_p3"
+  ],
+  "source_titles": [
+   "ms08_p1: Large-Area Synthesis of High-Quality and Uniform Graphene Films on Copper Foils; ms08_p2: Toward the Synthesis of Wafer-Scale Single-Crystal Graphene on Copper Foils; ms08_p3: The Role of Surface Oxygen in the Growth of Large Single-Crystal Graphene on Copper",
+   "ms08_p1: Large-Area Synthesis of High-Quality and Uniform Graphene Films on Copper Foils; ms08_p2: Toward the Synthesis of Wafer-Scale Single-Crystal Graphene on Copper Foils; ms08_p3: The Role of Surface Oxygen in the Growth of Large Single-Crystal Graphene on Copper"
+  ],
+  "n_items": 5
+ },
+ {
+  "source_arc_id": "ms09",
+  "arc_title": "Ni-rich NMC layered oxides - energy density vs cycling stability trade-off",
+  "arc_core_claim": "High-nickel content in LiNixMnyCozO2 cathodes universally improves battery performance",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0009_q03",
+   "scientific_memory_materials_0009_q07",
+   "scientific_memory_materials_0009_q08",
+   "scientific_memory_materials_0009_q09",
+   "scientific_memory_materials_0009_q14",
+   "scientific_memory_materials_0009_q15"
+  ],
+  "source_paper_ids": [
+   "ms09_p2",
+   "ms09_p1"
+  ],
+  "source_titles": [
+   "ms09_p1: High-energy cathode material for long-life and safe lithium batteries; ms09_p2: Oxygen Release and Its Effect on the Cycling Stability of LiNixMnyCozO2(NMC) Cathode Materials for Li-Ion Batteries; ms09_p3: NickelRich and LithiumRich Layered Oxide Cathodes: Progress and Perspectives",
+   "ms09_p1: High-energy cathode material for long-life and safe lithium batteries; ms09_p2: Oxygen Release and Its Effect on the Cycling Stability of LiNixMnyCozO2(NMC) Cathode Materials for Li-Ion Batteries; ms09_p3: NickelRich and LithiumRich Layered Oxide Cathodes: Progress and Perspectives"
+  ],
+  "n_items": 6
+ },
+ {
+  "source_arc_id": "ms10",
+  "arc_title": "Halide perovskites - defect tolerance vs ion migration",
+  "arc_core_claim": "Halide perovskites are 'defect tolerant' so solution-processed films achieve electronic quality near single crystals",
+  "domain": "materials_science",
+  "items": [
+   "scientific_memory_materials_0010_q03",
+   "scientific_memory_materials_0010_q04",
+   "scientific_memory_materials_0010_q07",
+   "scientific_memory_materials_0010_q10",
+   "scientific_memory_materials_0010_q11",
+   "scientific_memory_materials_0010_q14"
+  ],
+  "source_paper_ids": [
+   "ms10_p1",
+   "ms10_p4"
+  ],
+  "source_titles": [
+   "ms10_p1: Electron-Hole Diffusion Lengths Exceeding 1 Micrometer in an Organometal Trihalide Perovskite Absorber; ms10_p2: Unusual defect physics in CH3NH3PbI3 perovskite solar cell absorber; ms10_p3: Anomalous Hysteresis in Perovskite Solar Cells; ms10_p4: Ion Migration in Organometal Trihalide Perovskite and Its Impact on Photovoltaic Efficiency and Stability",
+   "ms10_p1: Electron-Hole Diffusion Lengths Exceeding 1 Micrometer in an Organometal Trihalide Perovskite Absorber; ms10_p2: Unusual defect physics in CH3NH3PbI3 perovskite solar cell absorber; ms10_p3: Anomalous Hysteresis in Perovskite Solar Cells; ms10_p4: Ion Migration in Organometal Trihalide Perovskite and Its Impact on Photovoltaic Efficiency and Stability"
+  ],
+  "n_items": 6
+ }
+]

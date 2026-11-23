@@ -1,0 +1,63 @@
+==========================================================================
+HUMAN CALIBRATION REPORT
+==========================================================================
+  grader_a.csv                 120 rows graded
+  grader_b.csv                 120 rows graded
+
+Joined 120 of 120 graded rows to the key.
+  by condition: {'online_history': 20, 'offline_retrieval': 20, 'gold_source': 20, 'gold_memory_state': 20, 'gold_evidence': 20, 'closed_book': 20}
+
+--------------------------------------------------------------------------
+1. AGREEMENT WITH THE MODEL JUDGE
+--------------------------------------------------------------------------
+component                        n     agree    kappa
+answer fidelity                120     68.3%     0.53
+unsupported claim              120     50.0%     0.18
+contradiction preserved        120     70.8%     0.34
+revision preserved             120     73.3%     0.55
+scope preserved                120     85.8%     0.61
+uncertainty preserved          120     93.3%     0.71
+provenance correct             120     79.2%     0.63
+
+--------------------------------------------------------------------------
+2. JOINT FIDELITY  (paper reports 13.7% under the judge)
+--------------------------------------------------------------------------
+  human  Phi = 35.0%   (n=120)
+  judge  Phi = 6.7%   (n=120, this subset only)
+  agreement on the Phi verdict itself: 70.0%
+
+--------------------------------------------------------------------------
+3. COMPOSITIONAL GAP  (paper reports 19.8% under the judge)
+--------------------------------------------------------------------------
+  responses passing every component-style check : 46
+  of those, failing joint fidelity              : 4  (8.7%)
+  broken gates: {'provenance': 4}
+
+--------------------------------------------------------------------------
+4. THE UNSUPPORTED-CLAIM GATE  (judge fires on 44.2% of verbatim gold)
+--------------------------------------------------------------------------
+  rows a human called correct AND free of unsupported claims : 47
+  of those, the judge flagged as unsupported                 : 25  (53.2%)
+
+  Read this as the judge's false-positive rate on human-clean responses.
+  If it is high, the gate inflates the compositional gap and the paper's
+  gate-sensitivity analysis (Table 8) becomes the primary reading.
+
+--------------------------------------------------------------------------
+5. INTER-ANNOTATOR AGREEMENT  (grader_a.csv vs grader_b.csv, 120 shared rows)
+--------------------------------------------------------------------------
+component                        n     agree    kappa
+answer fidelity                120     77.5%     0.66
+unsupported claim              120     87.5%     0.68
+contradiction preserved        120     78.3%     0.44
+revision preserved             120     97.5%     0.94
+scope preserved                120     98.3%     0.94
+uncertainty preserved          120    100.0%     1.00
+provenance correct             120     78.3%     0.55
+
+  Phi under grader A: 35.0%   under grader B: 35.0%
+
+==========================================================================
+Absolute levels in the paper are judge-relative. Whatever these numbers say,
+report them: a calibration pass that only confirms is not a calibration pass.
+==========================================================================

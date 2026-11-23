@@ -1,0 +1,105 @@
+{
+  "comparison": "z-ai/glm-5.1 vs expert",
+  "n_items": 300,
+  "fields": {
+    "gold_answer_correctness": {
+      "n": 300,
+      "matches": 279,
+      "disagreements": 21,
+      "agreement": 0.93,
+      "cohen_kappa": 0.8669,
+      "glm_label_counts": {
+        "correct": 164,
+        "partially_correct": 125,
+        "incorrect": 11
+      },
+      "expert_label_counts": {
+        "correct": 150,
+        "partially_correct": 144,
+        "incorrect": 6
+      }
+    },
+    "evidence_support": {
+      "n": 300,
+      "matches": 278,
+      "disagreements": 22,
+      "agreement": 0.9267,
+      "cohen_kappa": 0.8639,
+      "glm_label_counts": {
+        "fully_supported": 151,
+        "partially_supported": 133,
+        "unsupported": 7,
+        "insufficient_evidence": 8,
+        "wrong_source": 1
+      },
+      "expert_label_counts": {
+        "fully_supported": 139,
+        "partially_supported": 154,
+        "unsupported": 3,
+        "insufficient_evidence": 4
+      }
+    },
+    "category_label": {
+      "n": 300,
+      "matches": 300,
+      "disagreements": 0,
+      "agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "glm_label_counts": {
+        "temporal_claim_revision": 53,
+        "method_condition_constraints": 48,
+        "hypothesis_tracking": 13,
+        "contradiction_resolution": 51,
+        "cross_paper_synthesis": 54,
+        "uncertainty_abstention": 51,
+        "evidence_provenance": 24,
+        "entity_relation_recall_control": 6
+      },
+      "expert_label_counts": {
+        "temporal_claim_revision": 53,
+        "method_condition_constraints": 48,
+        "hypothesis_tracking": 13,
+        "contradiction_resolution": 51,
+        "cross_paper_synthesis": 54,
+        "uncertainty_abstention": 51,
+        "evidence_provenance": 24,
+        "entity_relation_recall_control": 6
+      }
+    },
+    "answerability_label": {
+      "n": 300,
+      "matches": 293,
+      "disagreements": 7,
+      "agreement": 0.9767,
+      "cohen_kappa": 0.8284,
+      "glm_label_counts": {
+        "answerable": 278,
+        "ambiguous": 10,
+        "unanswerable": 9,
+        "mislabeled": 3
+      },
+      "expert_label_counts": {
+        "answerable": 279,
+        "ambiguous": 10,
+        "unanswerable": 11
+      }
+    },
+    "item_decision": {
+      "n": 300,
+      "matches": 285,
+      "disagreements": 15,
+      "agreement": 0.95,
+      "cohen_kappa": 0.9016,
+      "glm_label_counts": {
+        "accept": 133,
+        "revise": 162,
+        "reject": 5
+      },
+      "expert_label_counts": {
+        "accept": 122,
+        "revise": 173,
+        "reject": 5
+      }
+    }
+  }
+}

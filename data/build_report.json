@@ -1,0 +1,58 @@
+{
+ "seed": 20260913,
+ "reviewed_rows": 300,
+ "usable_after_filter": 287,
+ "selected_items": 160,
+ "by_category": {
+  "temporal_claim_revision": 24,
+  "hypothesis_tracking": 13,
+  "cross_paper_synthesis": 24,
+  "method_condition_constraints": 24,
+  "uncertainty_abstention": 30,
+  "contradiction_resolution": 24,
+  "evidence_provenance": 16,
+  "entity_relation_recall_control": 5
+ },
+ "by_domain": {
+  "chemistry": 54,
+  "computational_biology": 51,
+  "materials_science": 55
+ },
+ "by_answerability": {
+  "answerable": 139,
+  "ambiguous": 10,
+  "unanswerable": 11
+ },
+ "by_expert_decision": {
+  "accept": 67,
+  "revise": 93
+ },
+ "items_with_expert_corrected_gold": 3,
+ "arcs_covered": 30,
+ "transcript_sessions_min": 9,
+ "transcript_sessions_max": 12,
+ "transcript_chars_median": 7987,
+ "conditions": [
+  "closed_book",
+  "online_history",
+  "offline_retrieval",
+  "gold_source",
+  "gold_memory_state",
+  "gold_evidence"
+ ],
+ "payload_records": 1832,
+ "payload_by_study": {
+  "main": 960,
+  "format_ablation": 480,
+  "pushback": 320,
+  "transfer": 72
+ },
+ "transfer_items": 24,
+ "transfer_by_domain": {
+  "machine_learning": 12,
+  "theoretical_cs": 12
+ },
+ "judge_control_records": 240,
+ "judge_control_items": 40,
+ "triage_records": 287
+}

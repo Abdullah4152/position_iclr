@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-05-04T03:25:19.492153+00:00",
+  "prompt_file": "diagnostic_study/diagnostic_prompts.jsonl",
+  "sampled_items_file": "12 expert-reviewed construction-audit questions sampled with fixed seed",
+  "seed": 43,
+  "models": [
+    "moonshotai/kimi-k2-thinking",
+    "nvidia/llama-3.3-nemotron-super-49b-v1.5"
+  ],
+  "conditions": [
+    "gold-memory-state",
+    "gold-source",
+    "partial-source"
+  ],
+  "question_count": 12,
+  "run_count": 72,
+  "glm_excluded": true,
+  "glm_exclusion_reason": "GLM-5.1 was used for annotation-triage evidence in the supplement, so it is excluded as a system-under-test to avoid circularity."
+}

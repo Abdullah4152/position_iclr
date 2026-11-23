@@ -1,0 +1,117 @@
+[
+ {
+  "arc_id": "ml01",
+  "domain": "machine_learning",
+  "arc_title": "Batch normalization - internal covariate shift versus loss-landscape smoothing",
+  "core_claim": "Batch normalization helps because it reduces internal covariate shift",
+  "evidence_evolution": "Ioffe & Szegedy 2015 introduced batch normalization and attributed its benefit to reducing internal covariate shift. Santurkar 2018 showed experimentally that injecting noise after batch normalization restores distributional shift while training still improves, and argued the mechanism is a smoother optimization landscape. Bjorck 2018 attributed much of the benefit to tolerating larger learning rates rather than to covariate shift. The original covariate-shift explanation is not supported by the later controlled experiments, although the empirical benefit of the layer is not in dispute.",
+  "source_papers": [
+   {"paper_id": "ml01_p1", "citation": "Ioffe & Szegedy 2015, ICML", "title": "Batch normalization: accelerating deep network training by reducing internal covariate shift", "year": 2015},
+   {"paper_id": "ml01_p2", "citation": "Santurkar et al. 2018, NeurIPS", "title": "How does batch normalization help optimization?", "year": 2018},
+   {"paper_id": "ml01_p3", "citation": "Bjorck et al. 2018, NeurIPS", "title": "Understanding batch normalization", "year": 2018}
+  ],
+  "curator_notes": "Mechanism-revision arc. The empirical claim survives; the causal explanation is revised.",
+  "expert_status": "author_constructed_not_expert_validated",
+  "selection_flags": {"has_contradiction": true, "has_method_condition_scope": true, "has_uncertainty": true, "has_evolving_hypothesis": true, "has_cross_paper_synthesis": true},
+  "evidence_spans": [
+   {"evidence_id": "ml01_curated_evolution", "source_type": "source_arc", "source_id": "ml01", "span_id": "ml01:evidence_evolution", "text": "Ioffe & Szegedy 2015 introduced batch normalization and attributed its benefit to reducing internal covariate shift. Santurkar 2018 showed experimentally that injecting noise after batch normalization restores distributional shift while training still improves, and argued the mechanism is a smoother optimization landscape. Bjorck 2018 attributed much of the benefit to tolerating larger learning rates rather than to covariate shift.", "text_type": "curator_note", "role": "revises"},
+   {"evidence_id": "ml01_expert_note", "source_type": "source_arc", "source_id": "ml01", "span_id": "ml01:expert_note", "text": "The competing mechanistic accounts in Santurkar 2018 and Bjorck 2018 are not adjudicated against each other by the cited evidence; both reject the covariate-shift account without establishing a single replacement.", "text_type": "curator_note", "role": "scopes"}
+  ]
+ },
+ {
+  "arc_id": "ml02",
+  "domain": "machine_learning",
+  "arc_title": "Adaptive optimizers versus SGD - the generalization gap is tuning- and setting-dependent",
+  "core_claim": "Adaptive gradient methods such as Adam generalize worse than SGD",
+  "evidence_evolution": "Wilson 2017 reported that adaptive methods find solutions that generalize worse than SGD on several image and language benchmarks. Loshchilov & Hutter 2019 showed that the L2 penalty in Adam is not equivalent to weight decay and that decoupling it removes much of the reported deficit. Choi 2019 showed that the ranking of optimizers changes with the hyperparameter search protocol and that more inclusive optimizers never underperform their special cases when tuned comparably. The generalization comparison is therefore bounded by the tuning protocol, the weight-decay formulation, and the workload rather than being a property of adaptivity itself.",
+  "source_papers": [
+   {"paper_id": "ml02_p1", "citation": "Wilson et al. 2017, NeurIPS", "title": "The marginal value of adaptive gradient methods in machine learning", "year": 2017},
+   {"paper_id": "ml02_p2", "citation": "Loshchilov & Hutter 2019, ICLR", "title": "Decoupled weight decay regularization", "year": 2019},
+   {"paper_id": "ml02_p3", "citation": "Choi et al. 2019, arXiv", "title": "On empirical comparisons of optimizers for deep learning", "year": 2019}
+  ],
+  "curator_notes": "Method-and-condition scope arc: the claim is real but only inside a tuning protocol.",
+  "expert_status": "author_constructed_not_expert_validated",
+  "selection_flags": {"has_contradiction": true, "has_method_condition_scope": true, "has_uncertainty": true, "has_evolving_hypothesis": true, "has_cross_paper_synthesis": true},
+  "evidence_spans": [
+   {"evidence_id": "ml02_curated_evolution", "source_type": "source_arc", "source_id": "ml02", "span_id": "ml02:evidence_evolution", "text": "Wilson 2017 reported that adaptive methods generalize worse than SGD on several benchmarks. Loshchilov & Hutter 2019 showed that decoupling weight decay from the Adam update removes much of the reported deficit. Choi 2019 showed that optimizer rankings change with the hyperparameter search protocol.", "text_type": "curator_note", "role": "scopes"},
+   {"evidence_id": "ml02_expert_note", "source_type": "source_arc", "source_id": "ml02", "span_id": "ml02:expert_note", "text": "Comparisons are only meaningful when the tuning budget, the search space, and the weight-decay formulation are reported; none of the cited sources establishes an unconditional ranking.", "text_type": "curator_note", "role": "scopes"}
+  ]
+ },
+ {
+  "arc_id": "ml03",
+  "domain": "machine_learning",
+  "arc_title": "Double descent - when more capacity or more training stops hurting",
+  "core_claim": "Test error increases monotonically with model capacity once a model can interpolate the training set",
+  "evidence_evolution": "Zhang 2017 showed that large networks can fit random labels, so classical capacity control alone does not explain generalization. Belkin 2019 described a double-descent risk curve in which test error falls again beyond the interpolation threshold. Nakkiran 2020 showed model-wise, epoch-wise and sample-wise double descent in deep networks and reported that the effect is strongly amplified by label noise and can be absent without it. Whether a second descent appears is therefore conditional on label noise, regularization, and where the model sits relative to the interpolation threshold.",
+  "source_papers": [
+   {"paper_id": "ml03_p1", "citation": "Zhang et al. 2017, ICLR", "title": "Understanding deep learning requires rethinking generalization", "year": 2017},
+   {"paper_id": "ml03_p2", "citation": "Belkin et al. 2019, PNAS", "title": "Reconciling modern machine-learning practice and the classical bias-variance trade-off", "year": 2019},
+   {"paper_id": "ml03_p3", "citation": "Nakkiran et al. 2020, ICLR", "title": "Deep double descent: where bigger models and more data hurt", "year": 2020}
+  ],
+  "curator_notes": "Condition-scope arc: the phenomenon exists but its presence depends on label noise and regularization.",
+  "expert_status": "author_constructed_not_expert_validated",
+  "selection_flags": {"has_contradiction": true, "has_method_condition_scope": true, "has_uncertainty": true, "has_evolving_hypothesis": true, "has_cross_paper_synthesis": true},
+  "evidence_spans": [
+   {"evidence_id": "ml03_curated_evolution", "source_type": "source_arc", "source_id": "ml03", "span_id": "ml03:evidence_evolution", "text": "Zhang 2017 showed large networks can fit random labels. Belkin 2019 described a double-descent risk curve beyond the interpolation threshold. Nakkiran 2020 showed model-wise, epoch-wise and sample-wise double descent in deep networks and reported that the effect is strongly amplified by label noise and can be absent without it.", "text_type": "curator_note", "role": "scopes"},
+   {"evidence_id": "ml03_expert_note", "source_type": "source_arc", "source_id": "ml03", "span_id": "ml03:expert_note", "text": "The cited evidence does not quantify a threshold amount of label noise required for a second descent to appear.", "text_type": "curator_note", "role": "establishes_uncertainty"}
+  ]
+ },
+ {
+  "arc_id": "tc01",
+  "domain": "theoretical_cs",
+  "arc_title": "Barrier results for P versus NP - which proof techniques are ruled out, and under what assumptions",
+  "core_claim": "The known barrier results show that P versus NP cannot be resolved",
+  "evidence_evolution": "Baker, Gill & Solovay 1975 constructed oracles A and B with P^A = NP^A and P^B != NP^B, so any proof that relativizes cannot settle the question. Razborov & Rudich 1997 defined natural proofs and showed that a natural proof of strong circuit lower bounds would break pseudorandom generators, so the barrier is conditional on the existence of hard one-way functions. Aaronson & Wigderson 2008 introduced algebrization and showed that techniques that algebrize also cannot settle the question. The barriers rule out classes of techniques under stated assumptions; they do not show the question is unresolvable.",
+  "source_papers": [
+   {"paper_id": "tc01_p1", "citation": "Baker, Gill & Solovay 1975, SIAM J. Comput.", "title": "Relativizations of the P =? NP question", "year": 1975},
+   {"paper_id": "tc01_p2", "citation": "Razborov & Rudich 1997, JCSS", "title": "Natural proofs", "year": 1997},
+   {"paper_id": "tc01_p3", "citation": "Aaronson & Wigderson 2008, ACM TOCT", "title": "Algebrization: a new barrier in complexity theory", "year": 2008}
+  ],
+  "curator_notes": "Assumption-scope arc. The natural-proofs barrier is conditional; conflating it with unresolvability is the target failure.",
+  "expert_status": "author_constructed_not_expert_validated",
+  "selection_flags": {"has_contradiction": false, "has_method_condition_scope": true, "has_uncertainty": true, "has_evolving_hypothesis": true, "has_cross_paper_synthesis": true},
+  "evidence_spans": [
+   {"evidence_id": "tc01_curated_evolution", "source_type": "source_arc", "source_id": "tc01", "span_id": "tc01:evidence_evolution", "text": "Baker, Gill & Solovay 1975 constructed oracles A and B with P^A = NP^A and P^B != NP^B, ruling out relativizing techniques. Razborov & Rudich 1997 showed a natural proof of strong circuit lower bounds would break pseudorandom generators, so the barrier is conditional on hardness assumptions. Aaronson & Wigderson 2008 showed that algebrizing techniques also cannot settle the question.", "text_type": "curator_note", "role": "scopes"},
+   {"evidence_id": "tc01_expert_note", "source_type": "source_arc", "source_id": "tc01", "span_id": "tc01:expert_note", "text": "Each barrier restricts a class of techniques under stated hypotheses; none is an independence result, and the cited evidence does not state that P versus NP is independent of the usual axioms.", "text_type": "curator_note", "role": "scopes"}
+  ]
+ },
+ {
+  "arc_id": "tc02",
+  "domain": "theoretical_cs",
+  "arc_title": "Unique Games Conjecture - the 2-to-2 theorem does not settle it",
+  "core_claim": "The Unique Games Conjecture has been proved",
+  "evidence_evolution": "Khot 2002 proposed the Unique Games Conjecture. Khot & Regev 2008 showed that vertex cover is hard to approximate within 2 - epsilon assuming the conjecture, making many hardness results conditional. Arora, Barak & Steurer 2010 gave a subexponential-time algorithm for unique games, which does not refute the conjecture but constrains the plausible hardness. Khot, Minzer & Safra 2018 proved the 2-to-2 games theorem with imperfect completeness, which implies half of the conjectured inapproximability constant but leaves the conjecture itself open.",
+  "source_papers": [
+   {"paper_id": "tc02_p1", "citation": "Khot 2002, STOC", "title": "On the power of unique 2-prover 1-round games", "year": 2002},
+   {"paper_id": "tc02_p2", "citation": "Khot & Regev 2008, JCSS", "title": "Vertex cover might be hard to approximate to within 2 - epsilon", "year": 2008},
+   {"paper_id": "tc02_p3", "citation": "Arora, Barak & Steurer 2010, FOCS", "title": "Subexponential algorithms for unique games and related problems", "year": 2010},
+   {"paper_id": "tc02_p4", "citation": "Khot, Minzer & Safra 2018, FOCS", "title": "Pseudorandom sets in Grassmann graph have near-perfect expansion", "year": 2018}
+  ],
+  "curator_notes": "Uncertainty-preservation arc. A celebrated partial result is routinely over-read as the full conjecture.",
+  "expert_status": "author_constructed_not_expert_validated",
+  "selection_flags": {"has_contradiction": true, "has_method_condition_scope": true, "has_uncertainty": true, "has_evolving_hypothesis": true, "has_cross_paper_synthesis": true},
+  "evidence_spans": [
+   {"evidence_id": "tc02_curated_evolution", "source_type": "source_arc", "source_id": "tc02", "span_id": "tc02:evidence_evolution", "text": "Khot 2002 proposed the Unique Games Conjecture. Khot & Regev 2008 showed vertex cover is hard to approximate within 2 - epsilon assuming the conjecture. Arora, Barak & Steurer 2010 gave a subexponential-time algorithm for unique games. Khot, Minzer & Safra 2018 proved the 2-to-2 games theorem with imperfect completeness, implying half of the conjectured constant but leaving the conjecture open.", "text_type": "curator_note", "role": "establishes_uncertainty"},
+   {"evidence_id": "tc02_expert_note", "source_type": "source_arc", "source_id": "tc02", "span_id": "tc02:expert_note", "text": "Results that assume the conjecture must be reported as conditional; the 2-to-2 theorem is a proof of a related statement with imperfect completeness, not of the conjecture.", "text_type": "curator_note", "role": "scopes"}
+  ]
+ },
+ {
+  "arc_id": "tc03",
+  "domain": "theoretical_cs",
+  "arc_title": "Graph isomorphism - quasipolynomial time, with a withdrawn and repaired bound",
+  "core_claim": "Graph isomorphism was shown to be solvable in polynomial time in 2015",
+  "evidence_evolution": "Babai 2016 announced and published a quasipolynomial-time algorithm for graph isomorphism, an improvement over the Luks-style moderately exponential bounds. In January 2017 Babai retracted the quasipolynomial claim after Helfgott identified an error in the timing analysis of one subroutine, and then repaired the analysis within days, restoring the quasipolynomial bound. Helfgott 2017 published an independent exposition of the corrected argument. The resulting bound is quasipolynomial, not polynomial, and graph isomorphism is not known to be in P.",
+  "source_papers": [
+   {"paper_id": "tc03_p1", "citation": "Babai 2016, STOC", "title": "Graph isomorphism in quasipolynomial time", "year": 2016},
+   {"paper_id": "tc03_p2", "citation": "Babai 2017, announcement", "title": "Graph isomorphism update: error and fix in the timing analysis", "year": 2017},
+   {"paper_id": "tc03_p3", "citation": "Helfgott 2017, Bourbaki seminar exposition", "title": "Isomorphismes de graphes en temps quasi-polynomial", "year": 2017}
+  ],
+  "curator_notes": "Revision-and-provenance arc with a real retract-and-repair event inside a two-week window.",
+  "expert_status": "author_constructed_not_expert_validated",
+  "selection_flags": {"has_contradiction": true, "has_method_condition_scope": false, "has_uncertainty": true, "has_evolving_hypothesis": true, "has_cross_paper_synthesis": true},
+  "evidence_spans": [
+   {"evidence_id": "tc03_curated_evolution", "source_type": "source_arc", "source_id": "tc03", "span_id": "tc03:evidence_evolution", "text": "Babai 2016 published a quasipolynomial-time algorithm for graph isomorphism. In January 2017 Babai retracted the quasipolynomial claim after Helfgott identified an error in the timing analysis, then repaired the analysis within days and restored the quasipolynomial bound. Helfgott 2017 published an independent exposition of the corrected argument.", "text_type": "curator_note", "role": "revises"},
+   {"evidence_id": "tc03_expert_note", "source_type": "source_arc", "source_id": "tc03", "span_id": "tc03:expert_note", "text": "The final bound is quasipolynomial rather than polynomial, and the retraction and the repair must both be preserved when the episode is summarized.", "text_type": "curator_note", "role": "scopes"}
+  ]
+ }
+]
