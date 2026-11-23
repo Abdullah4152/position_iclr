@@ -178,9 +178,18 @@ python3 code/make_tables_calibration.py
 python3 code/make_figure.py
 ```
 
-Tables are written to `paper/tables/` and the figure to `paper/figures/fig1_gap.pdf`. `make_tables.py` writes its
-LaTeX tables and then stops before writing `paper/numbers.tex`, because it imports `make_tables_robustness`,
-which is not included in this repository.
+Tables are written to `paper/tables/`, numeric macros to `paper/numbers.tex` and the figure to
+`paper/figures/fig1_gap.pdf`. `make_tables.py` imports `make_tables_robustness.py` (the headline-robustness
+table) and `make_tables_frontier.py` (the frontier-class table). The robustness table also reads
+`code/results/human_calibration.json`; run Step 7 first, or its human-calibration column shows `pending`.
+
+A report regenerated from the released raw files has no frontier section, so the frontier table and its macros
+are written as `PENDING`. To build every table from the released aggregates instead:
+
+```
+cp scores/aggregate_report.json code/results/report.json
+python3 code/make_tables.py
+```
 
 ## 7. Reproduce Human Calibration
 
